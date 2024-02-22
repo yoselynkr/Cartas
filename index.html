@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejercicio Yoselyn Montaña (MVC)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="interfazJuego">
+      <h1>Resultados del Juego</h1>
+      <table id="tablaJuego">
+        <tr>
+          <th>Nombre</th>
+          <th>Carta#1</th>
+          <th>Carta#2</th>
+          <th>Carta#3</th>
+          <th>Puntuación</th>
+        </tr>
+      </table>
+      <h2>El ganador del juego es: <span id="leerNombreGanador">?</span></h2>
+      <h2>
+        Porcentaje de personas con menos de 10 puntos:
+        <span id="leerPorcentajeMenosDe10">?</span> %
+      </h2>
+      <button id="agregar">Agregar Jugador</button>
+    </section>
+    <section id ="interfazJugador">
+      <h2>Datos del Jugador:</h2>
+      <input type="text" id ="INombre" placeholder="Nombre del Jugador"></input>
+      <input type= "number" id ="ICarta1" placeholder="Carta1"></input>
+      <input type= "number" id ="ICarta2" placeholder="Carta2"></input>
+      <input type= "number" id ="ICarta3" placeholder="Carta3"></input>
+      <button id= "botonAceptar">Aceptar</button>
+    </section>
+  </body>
+  <script type="module">
+    import app from "./js/principal.js"
+    new app()
+  </script>
+</html>

@@ -1,0 +1,31 @@
+h1 {
+    font-type: bold;
+    color: fuchsia;
+    font-size: 50px;
+    text-align: center;
+  }
+  h2 {
+    font-type: bold;
+    color: purple;
+  }
+  table {
+    text-align: center;
+    border: 2px blue solid;
+  }
+  tr {
+    text-align: center;
+    color: blue;
+    border: 2px blue solid;
+    font-size: 20px;
+  }
+  th {
+    text-align: center;
+    color: blue;
+    border: 2px blue solid;
+  }
+  td {
+    text-align: center;
+    color: blue;
+    border: 2px blue solid;
+  }
+  
